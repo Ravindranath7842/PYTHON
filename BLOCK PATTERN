@@ -1,0 +1,9 @@
+b=int(input("enter number of blocks :"))
+l=int(input("enter number of lines :"))
+s=int(input("enter number of stars :"))
+for i in range(b):
+    for j in range(l-i):
+        for k in range(s):
+            print("*",end=" ")
+        print()
+    print("----------")
