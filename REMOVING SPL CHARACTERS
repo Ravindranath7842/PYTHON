@@ -1,0 +1,7 @@
+a=input("enter a string :")
+result=""
+for i in a:
+    if i.isalpha():
+        result=result+i
+b=result.capitalize()
+print(b)
