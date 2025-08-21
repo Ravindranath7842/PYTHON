@@ -1,0 +1,4 @@
+import time
+while True:
+    print("TIME IS:",time.strftime("%H:%M:%S"), end="\r")
+    time.sleep(1)  
