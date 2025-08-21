@@ -1,0 +1,8 @@
+list=[]
+while (len(list)!=5):
+    n=int(input("Enter any number:"))
+    if n  in list:
+        print("Already exists Please enter another one")
+    else :
+        list.append(n)
+print(list)
