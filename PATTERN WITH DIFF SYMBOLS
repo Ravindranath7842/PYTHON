@@ -1,0 +1,12 @@
+n=int(input("emter: "))
+for i in range(n):
+    for j in range(n):
+        if (i==0 or j==0) or (i==n-1 or j==n-1):
+            print("A",end=" ")
+        elif i%2==0:
+            print("*",end=" ")
+        elif i%2!=0:
+            print("$",end=" ")
+            
+    print()
+
