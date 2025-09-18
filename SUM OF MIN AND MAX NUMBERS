@@ -1,0 +1,12 @@
+t1=int(input("Enter number1:"))
+t2=int(input("Enter number2:"))
+t3=int(input("Enter number3:"))
+a1=[int(i) for i in str(t1)]
+b1=[int(i) for i in str(t2)]
+c1=[int(i) for i in str(t3)]
+
+key1=max(a1)+max(b1)+max(c1)
+key2=min(a1)+min(b1)+min(c1)
+print(key1+key2)
+
+
