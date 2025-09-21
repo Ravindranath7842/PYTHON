@@ -1,0 +1,16 @@
+class RECTANGLE:
+    def dimensions(self,l,b):
+        self.l=l
+        self.b=b
+    def area(self):
+        print("area of rectangle:",self.l*self.b)
+    def peri(self):
+        print("perimeter of rectangle:",2*(self.l+self.b))
+r1=RECTANGLE()
+r1.dimensions(10,20)
+r1.area()
+r1.peri()
+r2=RECTANGLE()
+r2.dimensions(20,22)
+r2.area()
+r2.peri()
