@@ -1,0 +1,9 @@
+import qrcode
+upi_id="ravindrasbi-1@okicici"
+name="RAVINDRA"
+amount="1"
+note="payment for cofee"
+upi_link=(f"upi://pay?pa={upi_id}&pn={name}&tn="f"{note}&am={amount}&tn={note}")
+qr=qrcode.make(upi_link)
+qr.save("RAVI PAY.png")
+print(" QR code generated and saved")
