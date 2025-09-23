@@ -1,0 +1,8 @@
+import qrcode
+text="Hello students"
+a=qrcode.QRCode()
+a.add_data(text)
+a.make(fit=True)
+res=a.make_image(file_color="black",back_color="white")
+res.save("cse.png")
+print("QR code is ganarated sucessfully")
